@@ -151,6 +151,23 @@ button:hover {
   background-color: #2e2f42;
 }
 
+.section-one .section-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.section-one .icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  padding: 24px;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+}
+
 .team-list li h3 {
   margin-bottom: 8px;
 }
@@ -195,6 +212,27 @@ button:hover {
 .social-icon-card {
   fill: #f4f4fd;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-div {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-links a:hover {
+  background-color: #404bbf;
 }
 
 .section h2 {
@@ -279,8 +317,33 @@ span {
   color: #f4f4fd;
 }
 
-footer > div {
-  padding: 100px 0;
+.footer-container {
+  width: 1170px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 120px;
+}
+
+.footer-left {
+  max-width: 260px;
+}
+
+.footer-right {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-right > p {
+  color: white;
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 16px;
 }
 
 .footer-list {
@@ -289,6 +352,7 @@ footer > div {
 
 footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-text {
   color: #f4f4fd;
