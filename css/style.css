@@ -80,6 +80,11 @@ div .hero-div {
   padding: 40px;
   gap: 20px;
   min-height: 600px;
+
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 div .hero-div h1 {
   text-align: center;
@@ -333,6 +338,8 @@ button:hover {
   font-size: 18px;
   line-height: 1.5;
   text-align: left;
+  align-items: flex-end;
+  padding-bottom: 40px;
 }
 
 .portfolio-list li:hover .overlay,
