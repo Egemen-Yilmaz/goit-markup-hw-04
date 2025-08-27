@@ -416,7 +416,7 @@ span {
 
 .footer-container {
   width: 1170px;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -449,7 +449,7 @@ span {
 
 footer {
   background-color: #2e2f42;
-  padding: 100px 180px;
+  padding: 100px;
 }
 .footer-text {
   color: #f4f4fd;
